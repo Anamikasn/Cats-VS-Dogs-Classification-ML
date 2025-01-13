@@ -1,0 +1,1 @@
+web: gunicorn cats-vs-dogs.app:app
