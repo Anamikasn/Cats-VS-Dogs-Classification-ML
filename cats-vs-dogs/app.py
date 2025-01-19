@@ -14,7 +14,7 @@ if not os.path.exists(app.config['UPLOAD_FOLDER']):
     os.makedirs(app.config['UPLOAD_FOLDER'])
 
 # Load the trained model
-with open('data1.pickle', 'rb') as f:
+with open('cats-vs-dogs/data1.pickle', 'rb') as f:
     model = pickle.load(f)
 
 # Define categories
