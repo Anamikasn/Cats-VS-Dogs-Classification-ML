@@ -7,7 +7,7 @@ from skimage.feature import hog
 
 # Initialize Flask app
 app = Flask(__name__)
-app.config['UPLOAD_FOLDER'] = 'static/uploads'
+app.config['UPLOAD_FOLDER'] = 'cats-vs-dogs/static/uploads'
 
 # Ensure upload directory exists
 if not os.path.exists(app.config['UPLOAD_FOLDER']):
